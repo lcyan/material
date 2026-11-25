@@ -20,20 +20,20 @@ common/
 
 当前上传的 4 个 Loon 图片：
 
-- `loon/images/loon-rule-01.jpg`
-- `loon/images/loon-rule-02.jpg`
-- `loon/images/loon-rule-03.jpg`
-- `loon/images/loon-rule-04.jpg`
+- `loon/images/Global.png`
+- `loon/images/China.png`
+- `loon/images/Private.png`
+- `loon/images/PT.png`
 
 ## 引用方式
 
 GitHub Raw：
 
 ```text
-https://raw.githubusercontent.com/lcyan/material/main/loon/images/loon-rule-01.jpg
-https://raw.githubusercontent.com/lcyan/material/main/loon/images/loon-rule-02.jpg
-https://raw.githubusercontent.com/lcyan/material/main/loon/images/loon-rule-03.jpg
-https://raw.githubusercontent.com/lcyan/material/main/loon/images/loon-rule-04.jpg
+https://raw.githubusercontent.com/lcyan/material/main/loon/images/Global.png
+https://raw.githubusercontent.com/lcyan/material/main/loon/images/China.png
+https://raw.githubusercontent.com/lcyan/material/main/loon/images/Private.png
+https://raw.githubusercontent.com/lcyan/material/main/loon/images/PT.png
 ```
 
 JavaScript 文件可以直接引用：
@@ -45,14 +45,14 @@ https://raw.githubusercontent.com/lcyan/material/main/loon/js/example.js
 也可以使用 jsDelivr：
 
 ```text
-https://cdn.jsdelivr.net/gh/lcyan/material@main/loon/images/loon-rule-01.jpg
+https://cdn.jsdelivr.net/gh/lcyan/material@main/loon/images/Global.png
 ```
 
 需要长期固定版本时，建议将 `main` 替换为具体的 commit SHA。
 
 ## 命名建议
 
-- 使用小写英文、数字和短横线，例如 `loon-ai-rule.jpg`
+- 保持资源原始文件名；新增文件使用小写英文、数字和短横线
 - 不使用空格、中文或特殊符号
 - Loon 资源放到 `loon/`，Clash 资源放到 `clash/`
 - 不区分客户端的资源放到 `common/`
